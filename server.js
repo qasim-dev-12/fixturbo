@@ -1,12 +1,21 @@
-const express = require("express");
-const path = require("path");
-
-const app = express();
-
-app.use(express.static(path.join(__dirname, "build")));
-
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "build", "index.html"));
-});
-
-app.listen(3000, () => console.log("React app running on port 3000"));
+import { createServer } from 'http'
+import { parse } from 'url'
+import next from 'next'
+ 
+const port = parseInt(process.env.PORT || '3030', 10)
+const dev = process.env.NODE_ENV !== 'production'
+const app = next({ dev })
+const handle = app.getRequestHandler()
+ 
+app.prepare().then(() => {
+  createServer((req, res) => {
+    const parsedUrl = parse(req.url, true)
+    handle(req, res, parsedUrl)
+  }).listen(port)
+ 
+  console.log(
+    `> Server listening at http://localhost:${port} as ${
+      dev ? 'development' : process.env.NODE_ENV
+    }`
+  )
+})
