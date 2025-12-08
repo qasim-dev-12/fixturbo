@@ -1,18 +1,18 @@
 module.exports = {
   apps: [
     {
-      name: 'repair-tyre', // The process name shown in pm2 list
-      script: 'server.js', // Your custom Next.js server file
-      exec_mode: 'cluster', // Enables multi-core usage (use "fork" if single instance)
-      instances: 'max', // Start one instance per CPU core
+      name: 'repair-tyre',
+      script: 'server.js',
+      exec_mode: 'cluster',
+      instances: 'max',
       env: {
-        NODE_ENV: 'production', // Environment variable
-        PORT: 3030, // You can change the port if needed
+        NODE_ENV: 'production',
+        PORT: 3030
       },
-      watch: false, // Set to true if you want auto-restart on file change
-      error_file: './logs/error.log', // Optional: log file paths
+      watch: false,
+      error_file: './logs/error.log',
       out_file: './logs/out.log',
-      log_date_format: 'YYYY-MM-DD HH:mm:ss',
-    },
-  ],
+      log_date_format: 'YYYY-MM-DD HH:mm:ss'
+    }
+  ]
 };
