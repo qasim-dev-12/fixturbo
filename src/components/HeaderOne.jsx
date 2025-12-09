@@ -136,7 +136,7 @@ const HeaderOne = () => {
                   <nav className="main-menu d-none d-lg-inline-block">
                     <ul>
                       <li>
-                        <Link to="/">Home</Link>
+                        <Link to="/">Homeee</Link>
                        
                         {/* <ul className="sub-menu">
                           <li>
