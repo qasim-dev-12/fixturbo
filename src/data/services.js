@@ -39,9 +39,9 @@ const services = [
     short: "Choose from premium tyres for all car models with expert installation at your home or roadside.",
     image: "/assets/img/service/Buy New Tyre.png",
     icon: "/assets/img/icon/service-icon_1-2.svg",
-     img1:"/assets/img/service/big-new-tyre-1.png",
-    img2:"/assets/img/service/side-new-tyre-1.png",
-    img3:"/assets/img/service/side-new-tyre-2.png"
+    img1:"/assets/img/service/big-new-tyre.png",
+    img2:"/assets/img/service/side new tyre.png",
+    img3:"/assets/img/service/side new tyre 2.png"
   },
   {
     id: 3,
@@ -58,9 +58,9 @@ const services = [
     short: "Complete tyre change service with balancing and safety checks—done quickly at your location.",
     image: "/assets/img/service/Tyre Replacement.png",
     icon: "/assets/img/icon/service-icon_1-3.svg",
-     img1:"/assets/img/service/big-new-tyre-1.png",
-    img2:"/assets/img/service/side-new-tyre-1.png",
-    img3:"/assets/img/service/side-new-tyre-2.png"
+     img1:"/assets/img/service/tyre-rep-big.png",
+    img2:"/assets/img/service/tyre-rep-side-1.png",
+    img3:"/assets/img/service/tyre-rep-side-2.png"
   },
   {
     id: 4,
@@ -77,9 +77,9 @@ const services = [
     short: "We check and fill your tyre pressure (air or nitrogen) to ensure smooth driving and fuel efficiency.",
     image: "/assets/img/service/Air Fill.png",
     icon: "/assets/img/icon/service-icon_1-3.svg",
-     img1:"/assets/img/service/tyre-rep-big.png",
-    img2:"/assets/img/service/tyre-rep-side-1.png",
-    img3:"/assets/img/service/tyre-rep-side-2.png"
+     img1:"/assets/img/service/BIG IMAGE-AIR FILL.png",
+    img2:"/assets/img/service/SIDE IMAGE-AIR-FILL1.png",
+    img3:"/assets/img/service/SIDE IMAGE-AIR-FILL2.png"
   },
   {
     id: 5,
@@ -98,7 +98,7 @@ const services = [
     icon: "/assets/img/icon/service-icon_1-3.svg",
       img1:"/assets/img/service/big-spare-tyre.png",
     img2:"/assets/img/service/side-spare-tyre.png",
-    img3:"/assets/img/service/side-spare-tyre2.png"
+    img3:"/assets/img/service/side-spare-tyre-2.png"
   },
   {
     id: 6,
@@ -115,9 +115,9 @@ const services = [
     short: "Quick puncture repair using premium plugs and sealing techniques to get you back on the road safely.",
     image: "/assets/img/service/Fix Puncture Tyre.png",
     icon: "/assets/img/icon/service-icon_1-3.svg",
-     img1:"/assets/img/service/big-spare-tyre.png",
-    img2:"/assets/img/service/side-spare-tyre.png",
-    img3:"/assets/img/service/side-spare-tyre2.png"
+     img1:"/assets/img/service/fix-puncture-big.png",
+    img2:"/assets/img/service/fix-puncture-1.png",
+    img3:"/assets/img/service/fix-puncture-2.png"
   }
 ];
 

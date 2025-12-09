@@ -113,7 +113,7 @@ const HeaderOne = () => {
   <Link to="/">
   <Link to="/">
   <img
-    src="assets/img/logo-white.png"
+    src="/assets/img/logo-white.png"
     alt="Fixturbo"
     className="logo-img"
   />
@@ -123,21 +123,22 @@ const HeaderOne = () => {
 
             <div className="container">
               <div className="row align-items-center justify-content-lg-start justify-content-between">
-                <div className="col-auto d-xl-none d-block">
-                  {/* <div className="header-logo">
+                {/* <div className="col-auto d-xl-none d-block">
+                  <div className="header-logo">
                     <Link to="/" >
                       <img style={{
                         width:"171px"
                       }} src="assets/img/logo-white.png" alt="Fixturbo" />
                     </Link>
-                  </div> */}
-                </div>
+                  </div>
+                </div> */}
                 <div className="col-auto">
                   <nav className="main-menu d-none d-lg-inline-block">
                     <ul>
-                      <li className="menu-item-has-children">
-                        <Link to="#">Home</Link>
-                        <ul className="sub-menu">
+                      <li>
+                        <Link to="/">Home</Link>
+                       
+                        {/* <ul className="sub-menu">
                           <li>
                             <NavLink
                               to="/"
@@ -198,7 +199,7 @@ const HeaderOne = () => {
                               Home 06
                             </NavLink>
                           </li>
-                        </ul>
+                        </ul> */}
                       </li>
                       <li>
                         <NavLink
@@ -260,7 +261,7 @@ const HeaderOne = () => {
                           </li>
                         </ul>
                       </li>
-                      <li className="menu-item-has-children">
+                      {/* <li className="menu-item-has-children">
                         <Link to="#">Blog</Link>
                         <ul className="sub-menu">
                           <li>
@@ -359,7 +360,7 @@ const HeaderOne = () => {
                             </NavLink>
                           </li>
                         </ul>
-                      </li>
+                      </li> */}
                       <li>
                         <NavLink
                           to="/contact"
@@ -384,7 +385,7 @@ const HeaderOne = () => {
                 </div>
                 <div className="col-auto ms-auto d-xl-block d-none">
                   <div className="navbar-right-desc">
-                    <img src="assets/img/icon/chat.svg" alt="Fixturbo" />
+                    <img src="/assets/img/icon/chat.svg" alt="Fixturbo" />
                     <div className="navbar-right-desc-details">
                       <h6 className="title">Need help?</h6>
                       <Link className="link" to="tel:+2590256215">
@@ -404,7 +405,7 @@ const HeaderOne = () => {
           <div className="mobile-menu-area">
             <div className="mobile-logo">
               <Link to="/">
-                <img src="assets/img/logo.svg" alt="Fixturbo" />
+                <img src="/assets/img/logo.svg" alt="Fixturbo" />
               </Link>
               <button className="menu-toggle" onClick={mobileMenu}>
                 <i className="fa fa-times" />

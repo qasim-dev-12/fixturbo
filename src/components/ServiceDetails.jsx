@@ -23,25 +23,17 @@ const service = allServices.find(s => s.slug === slug);
             <div className="service-page-single">
               <div className="page-img mb-45">
                 <img
-                  src="assets/img/service/service-details1-1.png"
+                  src={service?.img1}
                   alt="Fixturbo"
                 />
               </div>
               <div className="page-content">
-                <h2 className="page-title">Affordable Car Repair Solutions</h2>
+                <h2 className="page-title">{service?.title_detail}</h2>
                 <p className="mb-25">
-                  Web designing in a powerful way of just not an only
-                  professions, however, in a passion for our Company. We have to
-                  a tendency to believe the idea that smart looking of any
-                  websitet in on visitors.Web designing in a powerful way of
-                  just not an only profession Web designing in a powerful way of
-                  just not an only{" "}
+                 {service?.p1}
                 </p>
                 <p className="mb-25">
-                  Web designing in a powerful way of just not an only
-                  professions, however, in a passion for our Company. We have to
-                  a tendency to believe the idea that smart looking of any
-                  websitet in on visitors
+                {service?.p2}
                 </p>
                 <h3 className="page-subtitle mb-15">
                   Trusted Car Repair Professionals
@@ -58,7 +50,7 @@ const service = allServices.find(s => s.slug === slug);
                   <div className="col-sm-6">
                     <div className="page-img">
                       <img
-                        src="assets/img/service/service-details1-2.png"
+                        src={service?.img2}
                         alt="Fixturbo"
                       />
                     </div>
@@ -66,7 +58,7 @@ const service = allServices.find(s => s.slug === slug);
                   <div className="col-sm-6">
                     <div className="page-img">
                       <img
-                        src="assets/img/service/service-details1-3.png"
+                        src={service?.img3}
                         alt="Fixturbo"
                       />
                     </div>
@@ -101,30 +93,30 @@ const service = allServices.find(s => s.slug === slug);
           <div className="col-xxl-4 col-lg-5">
             <aside className="sidebar-area">
               <div className="widget widget_service-list">
-                <h3 className="widget_title">All Services</h3>
+                <h3 className="widget_title">{service?.heading_title}</h3>
                 <ul>
                   <li>
                     <Link to="/blog">
                       <i className="fas fa-angle-double-right" />
-                      Fast and Reliable Car Repair Design
+                     {service?.h1}
                     </Link>
                   </li>
                   <li>
                     <Link to="/blog">
                       <i className="fas fa-angle-double-right" />
-                      Trusted Car Repair Professionals
+                      {service?.h2}
                     </Link>
                   </li>
                   <li>
                     <Link to="/blog">
                       <i className="fas fa-angle-double-right" />
-                      Get Your Car Fixed Right Away
+                      {service?.h3}
                     </Link>
                   </li>
                   <li>
                     <Link to="/blog">
                       <i className="fas fa-angle-double-right" />
-                      Quality Car Repair Services
+                    {service?.h4}
                     </Link>
                   </li>
                   <li>
