@@ -28,14 +28,14 @@ const ServiceAreaOne = () => {
                   </div>
 
                   <h4 className="service-card_title h5">
-                  <a href={`/service/${s.slug}`}>{s.title}</a>
+                    <Link to={`/service/${s.slug}`}>{s.title}</Link>
                   </h4>
 
                   <p className="service-card_text">{s.short}</p>
 
-                <a href={`/service/${s.slug}`} className="link-btn">
-  Read More <i className="fas fa-arrow-right"></i>
-</a>
+                  <Link to={`/service/${s.slug}`} className="link-btn">
+                    Read More <i className="fas fa-arrow-right" />
+                  </Link>
                 </div>
 
                 <div className="service-card_img">
