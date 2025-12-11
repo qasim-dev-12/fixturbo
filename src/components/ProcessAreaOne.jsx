@@ -5,6 +5,9 @@ const ProcessAreaOne = () => {
     <section className="process-area-1 space position-relative">
       <div className="portfolio-shape-img shape-mockup d-lg-block d-none">
         <img
+        style={{
+          width:"150px"
+        }}
           className="about1-shape-img-1 spin"
           src="/assets/img/normal/about_shape1-2.svg"
           alt="Fixturbo"

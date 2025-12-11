@@ -6,6 +6,10 @@ const AboutOne = () => {
     <div className="about-area-1 space-bottom ">
       <div className="about1-shape-img shape-mockup">
         <img
+        style={{
+          width:"150px",
+          height:"150px"
+        }}
           className="about1-shape-img-1 spin"
           src="assets/img/normal/about_shape1-2.svg"
           alt="Fixturbo"

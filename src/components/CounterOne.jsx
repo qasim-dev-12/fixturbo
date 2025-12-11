@@ -10,7 +10,7 @@ const CounterOne = () => {
           <div className="row gx-0 align-items-center">
             <div className="col-lg-6">
               <div className="counter-card-wrap">
-                <div className="row gy-30 justify-content-between">
+                <div className="row gy-100 justify-content-between">
                   <div className="col-sm-6 col-lg-6 col-12 mb-4" style={{marginBottom:"4rem"}}>
                     <div className="counter-card">
                       <div className="media-body">
@@ -53,7 +53,7 @@ const CounterOne = () => {
                         </h2>
                         <p className="counter-card_text">Rated Tyre Services</p>
                       </div>
-                      <div className="counter-card_icon">
+                      <div className="counter-card_icon" >
                         <img
                           src="assets/img/icon/counter-icon_1-2.svg"
                           alt="Fixturbo"
@@ -69,7 +69,7 @@ const CounterOne = () => {
                             {({ isVisible }) =>
                               isVisible && (
                                 <span className="counter-number">
-                                  <CountUp delay={0} start={0} end={100} />
+                                  <CountUp delay={0} start={0} end={40} />
                                   +
                                 </span>
                               )
@@ -149,12 +149,12 @@ const CounterOne = () => {
                 </div>
                 <div className="call-media-wrap">
                   <div className="icon">
-                    <img src="assets/img/icon/phone-1.svg" alt="Fixturbo" />
+                    <img className="text-black" src="assets/img/icon/phone-1.svg" alt="Fixturbo" />
                   </div>
                   <div className="media-body">
-                    <h6 className="title text-white">Requesting A Call:</h6>
+                    <h6 className="title text-black">Requesting A Call:</h6>
                     <h4 className="link">
-                      <a className="text-white" href="tel:6295550129">
+                      <a className="text-black" href="tel:6295550129">
                         (629) 555-0129
                       </a>
                     </h4>

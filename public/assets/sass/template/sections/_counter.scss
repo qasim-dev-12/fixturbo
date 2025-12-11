@@ -15,19 +15,29 @@
     }
 }
 .counter-checklist-wrap {
-    background-size: cover;
     position: relative;
     z-index: 1;
     padding: 40px 60px;
-    height: 100%;
-    &:after {
+    // ensures the background is visible
+
+   
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+
+    &::after {
         content: '';
         position: absolute;
         inset: 0;
-        background: linear-gradient(90deg, #00F7FE -1.06%, rgba(232, 9, 46, 0.00) 100%);
+        background: linear-gradient(
+            90deg,
+            rgba(10, 11, 11, 0.6) -1.06%,   // add transparency so image shows
+            rgba(232, 9, 46, 0.0) 100%
+        );
         z-index: -1;
     }
 }
+
 .counter-card {
     position: absolute;
     display: inline-flex;
@@ -128,7 +138,7 @@
         
     }
     .counter-card-wrap {
-        padding: 30px 30px;
+        padding: 60px 60px;
         text-align: center;
     }
 }
@@ -136,6 +146,10 @@
     .counter-checklist-wrap {
         padding: 40px 40px;
     }
+    .counter-card-wrap {
+        padding: 60px 60px;
+    }
+    
 }
 // my css
 .counter-card {
@@ -145,9 +159,9 @@
 }
 
 .counter-card_icon img {
-  width: 60px;
-  height: 60px;
-  object-fit: contain;
+  width: 100%;
+  max-width: 60px;
+  object-fit: none;
 }
 
 .counter-card_number {
@@ -171,6 +185,7 @@
     gap: 20px;
     .counter-card_icon {
         background: $white-color;
+        border: 1px solid $smoke-color;
     }
     .counter-card_number {
         color: $white-color;

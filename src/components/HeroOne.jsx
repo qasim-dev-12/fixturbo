@@ -16,14 +16,14 @@ const HeroOne = () => {
               <h1 className="hero-title text-white">
                 Fastest On-Site{" "}
                 <span>
-                  <img src="assets/img/hero/hero_shape_1.png" alt="Fixturbo" />
+                  {/* <img src="assets/img/hero/hero_shape_1.png" alt="Fixturbo" /> */}
                   Tyre Repair in Dubai— 
                 </span>{" "}
                 Arriving in Just 20–30 Minutes
               </h1>
               <p className="hero-text text-white">
-                Our expert technicians reach your location fast and fix your tyre on the spot.
-
+              We offer fast spare tyre changes, puncture fixes, and flat tyre repairs.
+Buy brand-new tyres from us at great prices with reliable service every time
               </p>
               <div className="btn-group">
                 <Link to="/about" className="btn">
