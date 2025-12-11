@@ -120,7 +120,7 @@ const CounterOne = () => {
                 className="counter-checklist-wrap"
                 style={{
                   backgroundImage:
-                    "url(assets/img/bg/counter-checklist-bg.png)",
+                    "url(/assets/img/bg/counter-checklist-bg.png)",
                 }}
               >
                 <div className="checklist style-white mb-50">
