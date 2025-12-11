@@ -1,6 +1,7 @@
 import React from "react";
 import TrackVisibility from "react-on-screen";
 import CountUp from "react-countup";
+import bg from  "../assets/img/bg/counter-checklist-bg.png";
 
 const CounterOne = () => {
   return (
@@ -118,10 +119,8 @@ const CounterOne = () => {
             <div className="col-lg-6">
               <div
                 className="counter-checklist-wrap"
-                style={{
-                  backgroundImage:
-                    "url(/assets/img/bg/counter-checklist-bg.png)",
-                }}
+                style={{ backgroundImage: `url(${bg})` }}
+
               >
                 <div className="checklist style-white mb-50">
                   <ul>
