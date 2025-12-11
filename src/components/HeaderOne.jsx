@@ -99,18 +99,21 @@ const HeaderOne = () => {
          
           <div className="menu-area">
             <div
+            
   className="header-navbar-logo"
   style={{
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
     margin: "auto 0",
-    height: "75%",
+    height: "100%",
+   
+   
        
                     
   }}
 >
-  <Link to="/">
+ 
   <Link to="/">
   <img
     src="/assets/img/logo-white.png"
@@ -118,7 +121,7 @@ const HeaderOne = () => {
     className="logo-img"
   />
 </Link>
-  </Link>
+ 
 </div>
 
             <div className="container">

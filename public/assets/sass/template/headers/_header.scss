@@ -537,7 +537,7 @@
       width: 14.2%;
       top: -50px;
       left: 0;
-      background: $theme-color;
+      background: #ffff;
       border-radius: 0 0 5px 0;
     }
   }
@@ -661,9 +661,11 @@
     padding: 0px 20px 0;
   }
   .header-layout1 .header-navbar-logo {
+    background-color: #ffff !important;
     margin-top: 0;
     img {
       max-width: none;
+      margin-bottom: 10px;
     }
   }
   .header-layout1 .sticky-wrapper.sticky {
