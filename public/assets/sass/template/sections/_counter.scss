@@ -151,6 +151,13 @@
     }
     
 }
+@media screen and (max-width: 320px) {
+  
+  .counter-card-wrap {
+        padding: 60px 20px;
+    }
+
+}
 // my css
 .counter-card {
   display: flex;
