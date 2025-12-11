@@ -1,0 +1,178 @@
+/* Background pseudo-element */
+
+
+/* Layout tweaks */
+.elementor-element-fa271a4 .e-con-inner {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+/* Logo sizing (centered + responsive) */
+.elementor-element-fa271a4 .logo-mobile img,
+.elementor-element-fa271a4 img {
+  display: block !important;
+  margin: 0 auto !important;
+  width: 200px !important;
+  height: 60px !important;
+  max-width: 100% !important;
+  min-height: 0 !important;
+  line-height: normal !important;
+}
+
+/* Button wrapper (desktop & mobile base) */
+.button-wrapper {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Base custom button */
+.custom-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 22px;
+  border-radius: 14px;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease;
+}
+
+.custom-btn:hover {
+  transform: scale(1.05);
+}
+
+/* Button icon */
+.btn-icon {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+}
+
+/* Button variants */
+.whatsapp-btn { background-color: #25D366; color: #fff; }
+.call-btn     { background-color: #D9F45F; color: #000; }
+
+/* Wobble animation */
+@keyframes wobble-btn {
+  0%   { transform: translateX(0) rotate(0deg); }
+  15%  { transform: translateX(-6px) rotate(-1deg); }
+  30%  { transform: translateX(6px) rotate(1deg); }
+  45%  { transform: translateX(-4px) rotate(-0.7deg); }
+  60%  { transform: translateX(3px) rotate(0.5deg); }
+  75%  { transform: translateX(-2px) rotate(-0.3deg); }
+  100% { transform: translateX(0) rotate(0deg); }
+}
+
+.wobble-btn {
+  animation: wobble-btn 1.8s ease-in-out infinite;
+  display: inline-flex;
+  will-change: transform;
+}
+
+/* Mobile / small screens */
+@media (max-width: 768px) {
+  /* Hide elements on mobile */
+  .elementor-element-d405185,
+  .call-us {
+    display: none !important;
+  }
+
+  /* Padding tweak for specific element on mobile */
+  .elementor-1118 .elementor-element.elementor-element-bcf783a {
+    padding-top: 10px !important;
+  }
+
+  /* kb-row layout padding */
+  .kb-row-layout-id782_372cb6-ff .kt-row-column-wrap {
+    padding-top: 50px !important;
+  }
+
+  /* Sticky bottom button bar */
+  .button-wrapper {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    z-index: 9999;
+    box-shadow: 0 -3px 12px rgba(0,0,0,0.2);
+  }
+
+  /* Mobile button sizing inside the wrapper */
+  .button-wrapper a.custom-btn {
+    flex: 1;
+    text-align: center;
+    padding: 12px 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .button-wrapper .btn-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* Prevent content being hidden behind sticky buttons */
+  body {
+    padding-bottom: 80px;
+  }
+}
+@media (min-width: 768px) {
+  /* Hide elements on mobile */
+ 
+
+  /* Sticky bottom button bar */
+  .button-wrapper {
+    display: none;
+  }
+
+ 
+
+ 
+}
+/* new: only the buttons with .sticky-bottom will be sticky at bottom */
+.sticky-bottom.button-wrapper {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  z-index: 9999;
+  box-shadow: 0 -3px 12px rgba(0,0,0,0.2);
+}
+
+/* mobile sizing */
+@media (max-width: 768px) {
+  .sticky-bottom.button-wrapper a.custom-btn {
+    flex: 1;
+    text-align: center;
+    padding: 12px 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  .sticky-bottom.button-wrapper .btn-icon { width:20px; height:20px; }
+  body { padding-bottom: 80px; }
+}
+
+/* keep original non-sticky .button-wrapper unaffected on desktop */
+@media (min-width: 768px) {
+  .sticky-bottom.button-wrapper { display: none; }
+}

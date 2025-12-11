@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import '../css/header.css';
 
 const FooterAreaOne = () => {
   return (
@@ -112,6 +113,37 @@ const FooterAreaOne = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="button-wrapper sticky-bottom">
+      
+        <a
+          href="https://api.whatsapp.com/send/?phone=971564018282"
+          className="custom-btn whatsapp-btn wobble-btn"
+          style={{ padding: "8px 12px" }}
+        >
+          <img
+            src="/assets/img/new-50.png"
+            alt="WhatsApp"
+            className="btn-icon"
+            style={{ width: "20px", height: "20px" }}
+          />
+          <span style={{ color: "#000" }}>WhatsApp Us</span>
+        </a>
+      
+        <a
+          href="tel:+971564018282"
+          className="custom-btn call-btn wobble-btn"
+          style={{ padding: "8px 12px" }}
+        >
+          <img
+            src="/assets/img/call.png"
+            alt="Call Us"
+            className="btn-icon"
+            style={{ width: "20px", height: "20px" }}
+          />
+          <span style={{ color: "#000" }}>Call Us</span>
+        </a>
+      
       </div>
     </footer>
   );
