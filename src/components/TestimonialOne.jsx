@@ -3,6 +3,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, FreeMode, Thumbs, EffectFade } from "swiper";
 import bg from "../assets/img/bg/testimonial-bg1-1.png";
 import testi1 from "../assets/img/testimonial/testimonial-1-1.png";
+import img from "../assets/img/icon/dialog (1).png";
+// import { ReactComponent as SvgIcon } from "../assets/img/icon/quote.png";
 const TestimonialOne = () => {
   return (
     <div
@@ -76,10 +78,9 @@ const TestimonialOne = () => {
                               </span>
                             </div>
                             <div className="quote-icon">
-                              <img
-                                src="assets/img/icon/quote1-1.svg"
-                                alt="Fixturbo"
-                              />
+                              
+                             {/* <SvgIcon style={{ color: '#0000',stroke:"#fff",borderColor:"#fff",borderWidth:"2px" }} width={30} height={30}    /> */}
+                             <img src={img} alt="" style={{width:"60px"}} />
                             </div>
                           </div>
                           <p className="testi-card_text">
