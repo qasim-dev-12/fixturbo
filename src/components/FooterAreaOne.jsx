@@ -3,12 +3,13 @@ import { Link } from "react-router-dom";
 import '../css/header.css';
 import whatsappIcon from "../../src/assets/img/icon/new-500.png";
 import call from "../../src/assets/img/icon/call (1).png";
+import img from "../../src/assets/img/bg/footer-bg1-1.png";
 
 const FooterAreaOne = () => {
   return (
     <footer
       className="footer-wrapper footer-layout1"
-      style={{ backgroundImage: "url(assets/img/bg/footer-bg1-1.png)" }}
+      style={{ backgroundImage: `url(${img})` }}
     >
       <div className="container">
         <div className="widget-area">
