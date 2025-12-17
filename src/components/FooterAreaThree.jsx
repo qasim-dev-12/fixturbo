@@ -61,15 +61,15 @@ const FooterAreaThree = () => {
                 <div className="widget-contact">
                   <p>
                     <i className="fas fa-phone-alt me-2 text-theme" />
-                    <Link to="tel:888123456765">(+888) 123 456 765</Link>
+                    <Link to="tel:0543170355">0543170355</Link>
                   </p>
                   <p>
                     <i className="fas fa-envelope me-2 text-theme" />
-                    <Link to="mailto:infoname@mail.com">infoname@mail.com</Link>
+                    <Link to="mailto:info@800speedy.com">info@800speedy.com</Link>
                   </p>
                   <p>
                     <i className="fas fa-map-marker-alt me-2 text-theme" />
-                    Old city Street,USA <br /> 1212 New york-3500
+                   Sajaya 7, Shop 14 B, Nad Al Shiba 3, <br /> Dubai
                   </p>
                 </div>
               </div>

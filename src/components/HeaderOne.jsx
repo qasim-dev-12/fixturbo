@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import ".././css/header.css";
+import whatsappIcon from "../../src/assets/img/icon/new-500.png";
+import call from "../../src/assets/img/icon/call (1).png";
 
 
 
@@ -61,15 +63,15 @@ const HeaderOne = () => {
                   <ul>
                     <li>
                       <i className="fas fa-envelope" />
-                      <Link to="mailto:info@example.com">info@example.com</Link>
+                      <Link to="mailto:info@800speedy.com">info@800speedy.com</Link>
                     </li>
                     <li>
                       <i className="fas fa-map-marker-alt" />
-                      6391 Elgin St. Celina, 10299
+                     Sajaya 7, Shop 14 B, Nad Al Shiba 3, Dubai
                     </li>
                     <li>
                       <i className="fas fa-clock" />
-                      Sunday - Friday
+                     Mon-Sun 8Am - 8Pm
                     </li>
                   </ul>
                 </div>
@@ -85,12 +87,12 @@ const HeaderOne = () => {
                         <Link to="https://www.instagram.com/">
                           <i className="fab fa-instagram" />
                         </Link>
-                        <Link to="https://www.twitter.com/">
+                        {/* <Link to="https://www.twitter.com/">
                           <i className="fab fa-twitter" />
                         </Link>
                         <Link to="https://www.linkedin.com/">
                           <i className="fab fa-linkedin" />
-                        </Link>
+                        </Link> */}
                       </div>
                     </li>
                   </ul>
@@ -489,8 +491,41 @@ const HeaderOne = () => {
         to="/service/fix-puncture-tyre"
         className={(navData) => (navData.isActive ? "active" : "")}
       >
-        Fix Puncture Tyre
+        Fix Puncture Tyreee
       </NavLink>
+    </li>
+    <li>
+       <div className="button-wrapper-2">
+            
+              <a
+                href="https://api.whatsapp.com/send/?phone=971564018282"
+                className="custom-btn whatsapp-btn wobble-btn"
+                style={{ padding: "8px 12px" }}
+              >
+                <img
+                  src={whatsappIcon}
+                  alt="WhatsApp"
+                  className="btn-icon"
+                  style={{ width: "20px", height: "20px" }}
+                />
+                <span style={{ color: "#000" }}>WhatsApp Us</span>
+              </a>
+            
+              <a
+                href="tel:+971564018282"
+                className="custom-btn call-btn wobble-btn"
+                style={{ padding: "8px 12px" }}
+              >
+                <img
+                  src={call}
+                  alt="Call Us"
+                  className="btn-icon"
+                  style={{ width: "20px", height: "20px" }}
+                />
+                <span style={{ color: "#000" }}>Call Us</span>
+              </a>
+            
+            </div>
     </li>
   </ul>
 </li>

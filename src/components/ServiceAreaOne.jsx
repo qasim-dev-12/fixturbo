@@ -59,7 +59,7 @@ const ServiceAreaOne = () => {
                     <Link to={`/service/${s.slug}`}>{s.title}</Link>
                   </h4>
 
-                  <p className="service-card_text">{s.short}</p>
+                  <p style={{whiteSpace:"pre-line"}} className="service-card_text">{s.short}</p>
 
                   <Link to={`/service/${s.slug}`} className="link-btn">
                     Read More <i className="fas fa-arrow-right" />

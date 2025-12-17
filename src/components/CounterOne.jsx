@@ -2,6 +2,7 @@ import React from "react";
 import TrackVisibility from "react-on-screen";
 import CountUp from "react-countup";
 import bg from  "../assets/img/bg/counter-checklist-bg.png";
+import '../css/header.css';
 
 const CounterOne = () => {
   return (
@@ -144,6 +145,11 @@ const CounterOne = () => {
                       <i className="fas fa-check" />
                     New Tyres, Puncture Fix, Battery Boost & More
                     </li>
+                      <li>
+                      <i className="fas fa-check" />
+                   Pay by card or pay by link
+                    </li>
+                    
                   </ul>
                 </div>
                 <div className="call-media-wrap">
@@ -151,10 +157,10 @@ const CounterOne = () => {
                     <img className="text-black" src="assets/img/icon/phone-1.svg" alt="800speedy" />
                   </div>
                   <div className="media-body">
-                    <h6 className="title text-black">Requesting A Call:</h6>
-                    <h4 className="link">
-                      <a className="text-black" href="tel:6295550129">
-                        (629) 555-0129
+                    <h6 className="title text-white">Requesting A Call:</h6>
+                    <h4 className="link-2">
+                      <a href="tel:6295550129">
+                        0543170355
                       </a>
                     </h4>
                   </div>

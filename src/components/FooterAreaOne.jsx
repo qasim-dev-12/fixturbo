@@ -9,16 +9,16 @@ const FooterAreaOne = () => {
   return (
     <footer
       className="footer-wrapper footer-layout1"
-      style={{ backgroundImage: `url(${img})` }}
+      style={{ backgroundImage: `url(${img})` ,backgroundRepeat:"no-repeat",backgroundSize:"contain",}}
     >
       <div className="container">
         <div className="widget-area">
           <div className="row justify-content-between">
-            <div className="col-md-6 col-6 text-center col-xl-auto">
+            <div className="col-md-6 col-6  col-xl-auto">
               <div className="widget widget_nav_menu footer-widget">
                 <h3 className="widget_title">Company</h3>
                 <div className="menu-all-pages-container">
-                  <ul className="menu" style={{textAlign:"-webkit-center"}}>
+                  <ul className="menu" >
                     <li>
                       <Link to="/about">About</Link>
                     </li>
@@ -35,53 +35,87 @@ const FooterAreaOne = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-6 col-6 text-center col-xl-auto">
+            <div className="col-md-6 col-6  col-xl-auto">
               <div className="widget widget_nav_menu footer-widget">
                 <h3 className="widget_title">Services</h3>
                 <div className="menu-all-pages-container">
-                  <ul className="menu" style={{textAlign:"-webkit-center"}}>
+                  <ul className="menu">
                     <li>
-                      <Link to="/service">Mechanic Masters</Link>
+                      <Link to="/service/tyre-repair">Tyre Repair</Link>
                     </li>
                     <li>
-                      <Link to="/service">Speedy Auto Repair</Link>
+                      <Link to="/service/buy-new-tyre">Buy New Tyre</Link>
                     </li>
                     <li>
-                      <Link to="/service">Mobile Car Repair</Link>
+                      <Link to="/service/tyre-replacement">Tyre Replacement</Link>
                     </li>
                     <li>
-                      <Link to="/service">Pro Auto Fix</Link>
+                      <Link to="/service/air-fill">Air Fill</Link>
                     </li>
                     <li>
-                      <Link to="/service">Precision Auto Works</Link>
+                      <Link to="/service/spare-tyre-change">Spare Tyre Change</Link>
+                    </li>
+                    <li>
+                      <Link to="/service/fix-puncture-tyre">Fix Puncture</Link>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div className="col-md-6 col-6 text-center col-xl-auto">
+            <div className="col-md-6 col-6  col-xl-auto">
               <div className="widget footer-widget">
                 <h3 className="widget_title">Contact</h3>
                 <div className="widget-contact">
                   <p>
-                    <Link to="tel:888123456765">(+888) 123 456 765</Link>
+                    <Link to="tel:0543170355">0543170355</Link>
                   </p>
                   <p>
-                    <Link to="mailto:infoname@mail.com">infoname@mail.com</Link>
+                    <Link to="mailto:info@800speedy.com">info@800speedy.com</Link>
                   </p>
                   <p>
-                    Old city Street,USA <br /> 1212 New york-3500
+                    Sajaya 7, Shop 14 B, Nad Al Shiba 3, <br /> Dubai
                   </p>
                 </div>
               </div>
             </div>
-            <div className="col-md-6 col-6 text-center col-xl-auto">
+            <div className="col-md-6 col-6  col-xl-auto">
               <div className="widget footer-widget widget-newsletter">
                 <h3 className="widget_title">Get In Touch</h3>
                 <p className="footer-text mb-50">
-                  Lorem Ipsum is simply is dumiomy is text Lorem Ipsum is simply
+                 Call us now for quick tyre repair, spare tyre change, puncture fixing, air fill, and new tyre replacement — anywhere in Dubai.
                 </p>
-                <form className="newsletter-form">
+                <div className="button-wrapper-2">
+      
+        <a
+          href="https://api.whatsapp.com/send/?phone=971564018282"
+          className="custom-btn whatsapp-btn wobble-btn"
+          style={{ padding: "8px 12px" }}
+        >
+          <img
+            src={whatsappIcon}
+            alt="WhatsApp"
+            className="btn-icon"
+            style={{ width: "20px", height: "20px" }}
+          />
+          <span style={{ color: "#000" }}>WhatsApp Us</span>
+        </a>
+      
+        <a
+          href="tel:+971564018282"
+          className="custom-btn call-btn wobble-btn"
+          style={{ padding: "8px 12px" }}
+        >
+          <img
+            src={call}
+            alt="Call Us"
+            className="btn-icon"
+            style={{ width: "20px", height: "20px" }}
+          />
+          <span style={{ color: "#000" }}>Call Us</span>
+        </a>
+      
+      </div>
+                {/* <form className="newsletter-form">
                   <div className="form-group">
                     <input
                       className="form-control"
@@ -93,7 +127,7 @@ const FooterAreaOne = () => {
                   <button type="submit" className="btn">
                     <i className="fas fa-arrow-right" />
                   </button>
-                </form>
+                </form> */}
               </div>
             </div>
           </div>

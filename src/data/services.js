@@ -93,7 +93,7 @@ const services = [
     h2:"Safe installation with proper tightening and torque settings",
     h3:"Ideal for emergencies and unexpected flat tyres",
     h4:"Fast arrival anywhere in Dubai within 20–30 minutes", 
-    short: "Stranded with a flat tyre? Our team will replace it with your spare tyre in minutes.",
+    short: "Stranded with a flat tyre? Our team will replace it with your spare tyre \nin minutes.",
     image: "/assets/img/service/Spare Tyre Change.png",
         icon: "/assets/img/icon/marquee-icon-1-2.svg",
       img1:"/assets/img/service/big-spare-tyre.png",

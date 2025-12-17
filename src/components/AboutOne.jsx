@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import shape1 from "../assets/img/normal/about_shape1-2.svg";
 import shape2 from "../assets/img/normal/about_shape1-1.svg";
+import whatsappIcon from "../../src/assets/img/icon/new-500.png";
+import call from "../../src/assets/img/icon/call (1).png";
 
 const AboutOne = () => {
   return (
@@ -10,7 +12,8 @@ const AboutOne = () => {
         <img
         style={{
           width:"150px",
-          height:"150px"
+          height:"150px",
+          marginLeft:"100px",
         }}
           className="about1-shape-img-1 spin"
           src={shape1}
@@ -59,7 +62,7 @@ const AboutOne = () => {
                     >
                       <img src="assets/img/icon/about_icon1-1.svg" alt="800speedy" />
                       <h3 className="about-year-wrap-title">
-                        <span className="counter-number">25</span>+
+                        <span className="counter-number">10</span>+
                       </h3>
                       <p className="about-year-wrap-text">
                         Years of Combined Expertise
@@ -86,20 +89,50 @@ const AboutOne = () => {
                         <i className="fas fa-check-circle" />
                       High-quality tyres & professional tools for every job
                       </li>
+                       <li>
+                        <i className="fas fa-check-circle" />
+                     Pay by card or pay by link
+                      </li>
                     </ul>
                   </div>
                 </div>
               </div>
-              <div className="btn-wrap mt-20">
+              
                 {/* <Link to="/about" className="btn style2 mt-xl-0 mt-20">
                   Read More <i className="fas fa-arrow-right ms-2" />
                 </Link> */}
-                <Link to="/" className="btn style2 mt-xl-0 mt-20" style={{
-                  color:"#000"
-                }}>
-                  Read More <i className="fas fa-arrow-right ms-2" />
-                </Link>
-              </div>
+             <div className="button-wrapper-2 mt-30">
+      
+        <a
+          href="https://api.whatsapp.com/send/?phone=971564018282"
+          className="custom-btn whatsapp-btn wobble-btn"
+          style={{ padding: "8px 12px" }}
+        >
+          <img
+            src={whatsappIcon}
+            alt="WhatsApp"
+            className="btn-icon"
+            style={{ width: "20px", height: "20px" }}
+          />
+          <span style={{ color: "#000" }}>WhatsApp Us</span>
+        </a>
+      
+        <a
+          href="tel:+971564018282"
+          className="custom-btn call-btn wobble-btn"
+          style={{ padding: "8px 12px" }}
+        >
+          <img
+            src={call}
+            alt="Call Us"
+            className="btn-icon"
+            style={{ width: "20px", height: "20px" }}
+          />
+          <span style={{ color: "#000" }}>Call Us</span>
+        </a>
+      
+      </div>
+              
             </div>
           </div>
         </div>
