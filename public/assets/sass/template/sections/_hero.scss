@@ -9,6 +9,7 @@
   padding: 215px 0 136px;
   background-size: cover;
 }
+
 .hero-title {
   font-weight: 900;
   span {
@@ -38,7 +39,7 @@
 }
 @include ml {
   .hero-1 {
-    padding: 250px 0 136px;
+    padding: 140px 20px 136px;
   }
 }
 @include lg {
@@ -46,16 +47,17 @@
     font-size: 16px;
   }
   .hero-style1 {
-    text-align: center;
-    margin-bottom: 60px;
+   
+    margin-bottom: 10px;
     .btn-group {
       justify-content: center;
     }
+    
   }
 }
 @media (max-width: 426px) {
   .hero-title {
-    font-size: 20px;
+    font-size: 28px;
     line-height: 25px;
   }
 }

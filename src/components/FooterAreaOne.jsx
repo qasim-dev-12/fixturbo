@@ -23,13 +23,13 @@ const FooterAreaOne = () => {
                       <Link to="/about">About</Link>
                     </li>
                     <li>
-                      <Link to="/team">Team</Link>
+                      <Link to="/terms-and-conditions">Terms and Conditions</Link>
                     </li>
                     <li>
-                      <Link to="/contact">Faq</Link>
+                      <Link to="/privacy-policy">Privacy Policy</Link>
                     </li>
                     <li>
-                      <Link to="/contact">Privacy Policy</Link>
+                      <Link to="/faq">FAQ</Link>
                     </li>
                   </ul>
                 </div>

@@ -194,3 +194,50 @@
   visibility: visible;
   transform: translateY(0);
 }
+.hero-points {
+  list-style: none;
+   color: var(--theme-color);
+   line-height: 1.5;
+
+}
+/* Hero points list */
+.hero-points {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  max-width: 520px;
+}
+
+/* Each bullet row */
+.hero-points li {
+    display: grid;
+    grid-template-columns: 24px 1fr !important; /* icon | text */     /* 🔥 KEY FIX */
+      align-items: start !important;              /* top-align icon & text */
+    justify-items: start !important; 
+  gap: 12px;
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.45;
+  color:var(--theme-color); 
+   text-align: left;               /* gold text like FixTyre */
+}
+
+/* Icon styling */
+.hero-points .icon {
+  width: 26px;                  /* fixed width = perfect alignment */
+  min-width: 22px;
+  margin-top: 2px;              /* aligns icon with first text line */
+  line-height: 1;
+  display: inline-flex;
+  justify-content: center;
+  flex-shrink: 0;
+}
+@media (max-width: 768px) {
+  .hero-points li {
+  
+    font-size: 18px;
+   
+  }
+}

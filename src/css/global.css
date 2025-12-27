@@ -1,0 +1,22 @@
+.privacy-area{
+    padding-top: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.terms-area{
+    padding-top: 4rem;
+     padding-left: 1rem;
+    padding-right: 1rem;
+}
+.faq-item {
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 15px;
+}
+
+.faq-question h5 {
+  font-weight: 600;
+}
+faq-area{
+    padding-top: 4rem;
+    border: 2px solid green;
+}

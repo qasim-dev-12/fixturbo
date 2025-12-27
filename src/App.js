@@ -22,6 +22,9 @@ import HomePageThree from "./pages/HomePageThree";
 import HomePageFour from "./pages/HomePageFour";
 import HomePageFive from "./pages/HomePageFive";
 import HomePageSix from "./pages/HomePageSix";
+import TermsandConditions from "./pages/TermsAndConditions";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import Faq from "./pages/Faq";
 
 function App() {
   return (
@@ -51,6 +54,10 @@ function App() {
         <Route exact path="/checkout" element={<CheckoutPage />} />
         <Route exact path="/wishlist" element={<WishlistPage />} />
         <Route exact path="/contact" element={<ContactPage />} />
+          <Route path="/terms-and-conditions" element={<TermsandConditions />} />
+           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+              <Route path="/faq" element={<PrivacyPolicy />} />
+
       </Routes>
     </BrowserRouter>
   );
