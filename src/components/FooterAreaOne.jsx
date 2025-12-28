@@ -29,7 +29,10 @@ const FooterAreaOne = () => {
                       <Link to="/privacy-policy">Privacy Policy</Link>
                     </li>
                     <li>
-                      <Link to="/faq">FAQ</Link>
+                      <Link to="/faq">FAQ's</Link>
+                    </li>
+                    <li>
+                       <Link to="/contact">Contact Us</Link>
                     </li>
                   </ul>
                 </div>
@@ -82,7 +85,7 @@ const FooterAreaOne = () => {
               <div className="widget footer-widget widget-newsletter">
                 <h3 className="widget_title">Get In Touch</h3>
                 <p className="footer-text mb-50">
-                 Call us now for quick tyre repair, spare tyre change, puncture fixing, air fill, and new tyre replacement — anywhere in Dubai.
+               Call now for fast on-site tyre service anywhere in Dubai.
                 </p>
                 <div className="button-wrapper-2 d-none d-md-inline-block">
       
@@ -138,13 +141,13 @@ const FooterAreaOne = () => {
           <div className="row gy-3 justify-content-md-between justify-content-center">
             <div className="col-auto align-self-center">
               <p className="copyright-text text-center">
-                © <Link to="#">800speedy</Link> 2024 | All Rights Reserved
+               <Link to="https://staytop.ae/"> © 800speedy 2026 | All Rights Reserved</Link>
               </p>
             </div>
             <div className="col-auto">
               <div className="footer-links">
-                <Link to="/contact">Tarms &amp; Condition</Link>
-                <Link to="/contact">Privacy Policy</Link>
+                <Link to="/terms-and-conditions">Terms &amp; Condition</Link>
+                <Link to="/privacy-policy">Privacy Policy</Link>
                 <Link to="/contact">Contact Us</Link>
               </div>
             </div>

@@ -55,13 +55,19 @@ const SubscribeOne = () => {
           </div>
         </div>
         <div className="social-btn">
-          <a href="https://facebook.com/">
+          <a href="https://facebook.com/" style={{
+            backgroundColor:"hsla(183, 75%, 70%, 1.00)",
+          }}>
             <i className="fab fa-facebook-f" />
           </a>
-          <a href="https://twitter.com/">
+          <a href="https://twitter.com/" style={{
+            backgroundColor:"hsla(183, 75%, 70%, 1.00)",
+          }}>
             <i className="fab fa-twitter" />
           </a>
-          <a href="https://instagram.com/">
+          <a href="https://instagram.com/" style={{
+            backgroundColor:"hsla(183, 75%, 70%, 1.00)",
+          }}>
             <i className="fab fa-instagram" />
           </a>
         </div>
