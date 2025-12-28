@@ -69,13 +69,13 @@
 }
 @include lg {
     .breadcumb-wrapper {
-        padding: 262px 0 120px;
+        padding: 0px 0 110px;
     }
 }
 @include md {
     .breadcumb-wrapper {
         text-align: center;
-        padding: 242px 0 100px;
+        padding: 8px 0 100px;
     }
 }
 @include xs {

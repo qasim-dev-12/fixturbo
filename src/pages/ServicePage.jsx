@@ -23,7 +23,7 @@ const ServicePage = () => {
       <HeaderOne />
 
       {/* Breadcrumb */}
-      <Breadcrumb title={"Service"} />
+      {/* <Breadcrumb title={"Service"} /> */}
 
       {/* Service Area One */}
       <ServiceAreaOneMultiImg />
