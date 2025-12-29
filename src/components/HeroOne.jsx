@@ -47,6 +47,10 @@ const HeroOne = () => {
   <span className="icon">💳</span>
   Pay by card or pay by link
 </li>
+ <li>
+   <span className="icon">💰</span>
+Services start from AED 79
+</li>
 </ul>
 
               {/* <div className="btn-group">
@@ -61,7 +65,7 @@ const HeroOne = () => {
           </div>
           <div className="col-xl-6 hero-img">
             <div className="hero-thumb text-center">
-              <img src="assets/img/hero/hero-thumb1-new.png" alt="800speedy" className="new-img" />
+              <img src="assets/img/hero/hero-1.png" alt="800speedy" className="new-img" />
             </div>
           </div>
         </div>

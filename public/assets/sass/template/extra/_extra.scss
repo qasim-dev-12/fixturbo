@@ -163,7 +163,7 @@
 /* Logo image sizing - flexible and responsive */
 .header-navbar-logo .logo-img {
   // width: 190px;        /* desired visual width */
-  height: 90px;        /* keep aspect ratio */
+  height: 85px;        /* keep aspect ratio */
   max-width: 150px;   /* prevents it from becoming too tall */
   object-fit: cover;
   display: block;
