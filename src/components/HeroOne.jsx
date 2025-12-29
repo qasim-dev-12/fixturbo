@@ -61,7 +61,7 @@ const HeroOne = () => {
           </div>
           <div className="col-xl-6 hero-img">
             <div className="hero-thumb text-center">
-              <img src="assets/img/hero/hero-thumb1-new.png" alt="800speedy" />
+              <img src="assets/img/hero/hero-thumb1-new.png" alt="800speedy" className="new-img" />
             </div>
           </div>
         </div>

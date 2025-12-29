@@ -54,23 +54,44 @@ const SubscribeOne = () => {
       </div>
           </div>
         </div>
-        <div className="social-btn">
-          <a href="https://facebook.com/" style={{
-            backgroundColor:"hsla(183, 75%, 70%, 1.00)",
-          }}>
-            <i className="fab fa-facebook-f" />
-          </a>
-          <a href="https://twitter.com/" style={{
-            backgroundColor:"hsla(183, 75%, 70%, 1.00)",
-          }}>
-            <i className="fab fa-twitter" />
-          </a>
-          <a href="https://instagram.com/" style={{
-            backgroundColor:"hsla(183, 75%, 70%, 1.00)",
-          }}>
-            <i className="fab fa-instagram" />
-          </a>
-        </div>
+       <div className="social-btn">
+  <a
+    href="https://www.facebook.com/800speedy"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{ backgroundColor: "hsla(183, 75%, 70%, 1.00)" }}
+  >
+    <i className="fab fa-facebook-f" />
+  </a>
+
+  <a
+    href="https://www.instagram.com/800speedy"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{ backgroundColor: "hsla(183, 75%, 70%, 1.00)" }}
+  >
+    <i className="fab fa-instagram" />
+  </a>
+
+  <a
+    href="https://www.tiktok.com/@800speedy"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{ backgroundColor: "hsla(183, 75%, 70%, 1.00)" }}
+  >
+    <i className="fab fa-tiktok" />
+  </a>
+
+  <a
+    href="https://www.linkedin.com/company/800speedy"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{ backgroundColor: "hsla(183, 75%, 70%, 1.00)" }}
+  >
+    <i className="fab fa-linkedin-in" />
+  </a>
+</div>
+
       </div>
     </div>
   );

@@ -134,7 +134,9 @@ const MarqueeOne = () => {
                     />
 
                     {/* TEXT */}
-                    <span className={index % 2 === 0 ? "" : "text-stroke"}>
+                    <span className={index % 2 === 0 ? "" : "text-stroke"} style={{
+                      marginLeft:"10px"
+                    }}>
   {item.text}
 </span>
 

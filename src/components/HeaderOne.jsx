@@ -81,12 +81,38 @@ const HeaderOne = () => {
                   <ul>
                     <li>
                       <div className="social-links">
-                        <Link to="https://www.facebook.com/">
-                          <i className="fab fa-facebook-f" />
-                        </Link>
-                        <Link to="https://www.instagram.com/">
-                          <i className="fab fa-instagram" />
-                        </Link>
+                      <Link
+  to={{ pathname: "https://www.facebook.com/800speedy" }}
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <i className="fab fa-facebook-f" />
+</Link>
+
+<Link
+  to={{ pathname: "https://www.instagram.com/800speedy" }}
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <i className="fab fa-instagram" />
+</Link>
+
+<Link
+  to={{ pathname: "https://www.tiktok.com/@800speedy" }}
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <i className="fab fa-tiktok" />
+</Link>
+
+<Link
+  to={{ pathname: "https://www.linkedin.com/company/800speedy" }}
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <i className="fab fa-linkedin-in" />
+</Link>
+
                         {/* <Link to="https://www.twitter.com/">
                           <i className="fab fa-twitter" />
                         </Link>

@@ -6,7 +6,7 @@
 }
 /* Hero 1 ---------------------------------- */
 .hero-1 {
-  padding: 215px 0 136px;
+  padding: 250px 0 136px;
   background-size: cover;
 }
 
@@ -464,6 +464,9 @@
   padding-right: 0 !important;
   // margin-top: auto;
   margin-block-start: auto;
+    display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center; 
 }
 @media (max-width: 576px) {
   .header-navbar-logo .logo-img {

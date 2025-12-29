@@ -197,7 +197,7 @@
 .hero-points {
   list-style: none;
    color: var(--theme-color);
-   line-height: 1.5;
+   line-height: 1.1;
 
 }
 /* Hero points list */
@@ -240,4 +240,15 @@
     font-size: 18px;
    
   }
+}
+.hero-img {
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+}
+.new-img{
+
+  max-width: 100%;
+  height: auto;
+
 }
