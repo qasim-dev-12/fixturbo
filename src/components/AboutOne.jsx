@@ -93,6 +93,11 @@ const AboutOne = () => {
                         <i className="fas fa-check-circle" />
                      Pay by card or pay by link
                       </li>
+                       <li>
+                        <i className="fas fa-check-circle" />
+                     Services start from AED 79
+                      </li>
+                      
                     </ul>
                   </div>
                 </div>

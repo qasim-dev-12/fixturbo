@@ -149,6 +149,10 @@ const CounterOne = () => {
                       <i className="fas fa-check" />
                    Pay by card or pay by link
                     </li>
+                     <li>
+                      <i className="fas fa-check" />
+                  Services start from AED 79
+                    </li>
                     
                   </ul>
                 </div>
